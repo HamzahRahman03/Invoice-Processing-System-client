@@ -1,6 +1,6 @@
 
 import { AppBar, styled, StyledEngineProvider, Toolbar } from '@mui/material';
-import {NavLink} from 'react-router-dom';
+import logo from './logo.jpg'
 
 const Head = styled(AppBar)`
  background : black;
@@ -9,16 +9,7 @@ const Head = styled(AppBar)`
  position : static;
 `
 
-
-// const Tabs = styled (NavLink)`
-// font-size: 20px;
-//     margin-right : 20px;
-//     color : inherit;
-//     text-decoration : none;
-// `
-
 const Header = () => {
-    const logo = "https://i.ebayimg.com/images/g/79MAAOSwDupkt0v-/s-l400.jpg";
     return (
         <Head>
             <Toolbar>
